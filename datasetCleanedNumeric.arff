@@ -1,0 +1,1005 @@
+@relation datasetCleanedNumeric
+
+@attribute Case_no numeric
+@attribute checking_status numeric
+@attribute credit_history {'critical/other existing credit','existing paid','delayed previously','no credits/all paid','all paid'}
+@attribute purpose {radio/tv,education,furniture/equipment,'new car','used car',business,'domestic appliance',repairs,other,retraining}
+@attribute credit_amount numeric
+@attribute saving_status numeric
+@attribute employment numeric
+@attribute personal_status {'male single','female div/dep/mar','male div/sep','male mar/wid'}
+@attribute age numeric
+@attribute job numeric
+@attribute class numeric
+
+@data
+1,-1,'critical/other existing credit',radio/tv,1169,0,4,'male single',67,2,1
+2,1,'existing paid',radio/tv,5951,1,2,'female div/dep/mar',22,2,0
+3,0,'critical/other existing credit',education,2096,1,3,'male single',49,1,1
+4,-1,'existing paid',furniture/equipment,7882,1,3,'male single',45,2,1
+5,-1,'delayed previously','new car',4870,1,2,'male single',53,2,0
+6,0,'existing paid',education,9055,0,2,'male single',35,1,1
+7,0,'existing paid',furniture/equipment,2835,3,4,'male single',53,2,1
+8,1,'existing paid','used car',6948,1,2,'male single',35,3,1
+9,0,'existing paid',radio/tv,3059,4,3,'male div/sep',61,1,1
+10,1,'critical/other existing credit','new car',5234,1,0,'male mar/wid',28,3,0
+11,1,'existing paid','new car',1295,1,1,'female div/dep/mar',25,2,0
+12,-1,'existing paid',business,4308,1,1,'female div/dep/mar',24,2,0
+13,1,'existing paid',radio/tv,1567,1,2,'female div/dep/mar',22,2,1
+14,-1,'critical/other existing credit','new car',1199,1,4,'male single',60,1,0
+15,-1,'existing paid','new car',1403,1,2,'female div/dep/mar',28,2,1
+16,-1,'existing paid',radio/tv,1282,2,2,'female div/dep/mar',32,1,0
+17,0,'critical/other existing credit',radio/tv,2424,0,4,'male single',53,2,1
+18,-1,'no credits/all paid',business,8072,0,1,'male single',25,2,1
+19,1,'existing paid','used car',12579,1,4,'female div/dep/mar',44,3,0
+20,0,'existing paid',radio/tv,3430,3,4,'male single',31,2,1
+21,0,'critical/other existing credit','new car',2134,1,2,'male single',48,2,1
+22,-1,'existing paid',radio/tv,2647,3,2,'male single',44,2,1
+23,-1,'critical/other existing credit','new car',2241,1,1,'male single',48,1,1
+24,1,'critical/other existing credit','used car',1804,2,1,'male single',44,2,1
+25,0,'critical/other existing credit',furniture/equipment,2069,0,2,'male mar/wid',26,2,1
+26,-1,'existing paid',furniture/equipment,1374,1,2,'male single',60,1,1
+27,0,'no credits/all paid',radio/tv,426,1,4,'male mar/wid',39,1,1
+28,2,'all paid',radio/tv,409,4,2,'female div/dep/mar',42,2,1
+29,1,'existing paid',radio/tv,2415,1,2,'male single',34,2,1
+30,-1,'delayed previously',business,6836,1,4,'male single',63,2,0
+31,1,'existing paid',business,1913,4,1,'male mar/wid',36,2,1
+32,-1,'existing paid',furniture/equipment,4020,1,2,'male single',27,2,1
+33,1,'existing paid','new car',5866,2,2,'male single',30,2,1
+34,0,'critical/other existing credit',business,1264,0,4,'male single',57,1,1
+35,2,'existing paid',furniture/equipment,1474,1,1,'female div/dep/mar',33,3,1
+36,1,'critical/other existing credit',radio/tv,4746,1,1,'male single',25,1,0
+37,0,'critical/other existing credit',education,6110,1,2,'male single',31,2,1
+38,2,'existing paid',radio/tv,2100,1,2,'male single',37,2,0
+39,2,'existing paid','domestic appliance',1225,1,2,'male single',37,2,1
+40,1,'existing paid',radio/tv,458,1,2,'male single',24,2,1
+41,0,'existing paid',radio/tv,2333,3,4,'male single',30,3,1
+42,1,'existing paid',radio/tv,1158,3,2,'male div/sep',26,2,1
+43,1,'delayed previously',repairs,6204,1,2,'male single',44,1,1
+44,-1,'critical/other existing credit','used car',6187,2,3,'male mar/wid',24,2,1
+45,-1,'critical/other existing credit','used car',6143,1,4,'female div/dep/mar',58,1,0
+46,0,'critical/other existing credit','new car',1393,1,1,'female div/dep/mar',35,3,1
+47,0,'existing paid',radio/tv,2299,3,4,'male single',39,2,1
+48,-1,'existing paid','used car',1352,3,0,'female div/dep/mar',23,0,1
+49,0,'critical/other existing credit','new car',7228,1,2,'male single',39,1,1
+50,0,'existing paid',radio/tv,2073,2,2,'female div/dep/mar',28,2,1
+51,1,'delayed previously',furniture/equipment,2333,0,1,'male single',29,1,1
+52,1,'delayed previously','used car',5965,1,4,'male single',30,3,1
+53,0,'existing paid',radio/tv,1262,1,2,'male single',25,2,1
+54,0,'existing paid','used car',3378,0,2,'male single',1,2,1
+55,1,'delayed previously','new car',2225,1,4,'male single',57,2,0
+56,0,'all paid','new car',783,0,2,'male single',26,1,1
+57,1,'existing paid',radio/tv,6468,0,0,'male single',52,3,0
+58,0,'critical/other existing credit',radio/tv,9566,1,2,'female div/dep/mar',31,2,1
+59,2,'existing paid','new car',1961,1,4,'female div/dep/mar',23,3,1
+60,-1,'critical/other existing credit',furniture/equipment,6229,1,1,'female div/dep/mar',23,1,0
+61,1,'existing paid',business,1391,1,2,'male mar/wid',27,2,1
+62,1,'critical/other existing credit',radio/tv,1537,0,4,'male single',50,2,1
+63,1,'no credits/all paid',business,1953,1,4,'male single',61,3,0
+64,1,'no credits/all paid',business,14421,1,2,'male single',25,2,0
+66,0,'existing paid',repairs,5190,0,4,'male single',48,2,1
+67,0,'existing paid',radio/tv,2171,1,1,'female div/dep/mar',29,2,1
+68,1,'existing paid','new car',1007,4,2,'male mar/wid',22,2,1
+70,0,'existing paid',radio/tv,2394,0,2,'female div/dep/mar',25,2,1
+71,0,'existing paid','used car',8133,1,2,'female div/dep/mar',30,2,1
+72,0,'critical/other existing credit',radio/tv,730,0,4,'male single',46,1,1
+73,-1,'critical/other existing credit',other,1164,1,4,'male single',51,3,1
+74,1,'critical/other existing credit',business,5954,1,3,'female div/dep/mar',41,1,1
+75,-1,'existing paid',education,1977,0,4,'male single',40,3,0
+76,-1,'critical/other existing credit','used car',1526,1,4,'male single',66,3,1
+77,-1,'existing paid',radio/tv,3965,1,1,'male single',34,2,0
+78,1,'delayed previously',radio/tv,4771,1,3,'male single',51,2,1
+79,0,'no credits/all paid','used car',9436,0,2,'male single',39,1,1
+80,1,'existing paid',furniture/equipment,3832,1,1,'male mar/wid',22,2,1
+81,0,'existing paid',radio/tv,5943,0,1,'female div/dep/mar',44,2,0
+82,0,'existing paid',radio/tv,1213,3,4,'male single',47,2,1
+83,0,'existing paid',business,1568,2,2,'female div/dep/mar',24,1,1
+84,-1,'existing paid',other,1755,1,4,'female div/dep/mar',58,1,1
+85,-1,'existing paid',radio/tv,2315,1,4,'male single',52,1,1
+86,0,'critical/other existing credit',business,1412,1,2,'female div/dep/mar',29,3,1
+87,1,'critical/other existing credit',furniture/equipment,1295,1,1,'female div/dep/mar',27,2,1
+88,1,'existing paid',education,12612,2,2,'male single',47,2,0
+89,-1,'existing paid','new car',2249,2,3,'male single',30,3,1
+90,-1,'no credits/all paid',repairs,1108,1,3,'male single',28,2,0
+91,0,'critical/other existing credit',radio/tv,618,1,4,'male single',56,2,1
+92,-1,'critical/other existing credit','used car',1409,1,4,'male single',54,2,1
+93,0,'critical/other existing credit',radio/tv,797,0,4,'female div/dep/mar',33,1,0
+94,2,'critical/other existing credit',furniture/equipment,3617,0,4,'male single',20,2,1
+95,1,'existing paid','new car',1318,4,4,'male single',54,2,1
+96,1,'no credits/all paid',business,15945,1,1,'male single',58,2,0
+97,0,'critical/other existing credit',education,2012,0,3,'female div/dep/mar',61,2,1
+98,1,'existing paid',business,2622,2,2,'male single',34,2,1
+99,1,'critical/other existing credit',radio/tv,2337,1,4,'male single',36,2,1
+100,1,'delayed previously','used car',7057,0,3,'male single',36,3,1
+101,0,'existing paid','new car',1469,2,4,'male mar/wid',41,1,1
+102,1,'existing paid',radio/tv,2323,1,3,'male single',24,2,1
+103,0,'delayed previously',radio/tv,932,1,2,'female div/dep/mar',24,2,1
+104,1,'critical/other existing credit',furniture/equipment,1919,1,3,'male single',35,2,1
+105,0,'existing paid','used car',2445,0,1,'male mar/wid',26,2,1
+106,1,'critical/other existing credit',other,11938,1,2,'male single',39,3,0
+107,0,'all paid','new car',6458,1,4,'male single',39,3,0
+108,1,'existing paid','new car',6078,1,3,'male single',32,2,1
+109,-1,'existing paid',furniture/equipment,7721,0,1,'female div/dep/mar',30,2,1
+110,1,'existing paid',business,1410,3,4,'male mar/wid',35,2,1
+111,1,'delayed previously',business,1449,2,4,'male div/sep',31,2,1
+112,2,'existing paid',education,392,1,1,'female div/dep/mar',23,2,1
+113,1,'existing paid','new car',6260,1,3,'male single',28,1,1
+114,0,'critical/other existing credit','new car',7855,1,2,'female div/dep/mar',25,2,0
+115,-1,'existing paid',radio/tv,1680,3,4,'male mar/wid',35,2,1
+116,0,'critical/other existing credit',radio/tv,3578,0,4,'male single',47,2,1
+117,-1,'existing paid',radio/tv,7174,0,3,'female div/dep/mar',30,3,0
+118,-1,'critical/other existing credit',furniture/equipment,2132,0,1,'female div/dep/mar',27,2,1
+119,-1,'critical/other existing credit',furniture/equipment,4281,3,2,'female div/dep/mar',23,2,0
+120,1,'critical/other existing credit','new car',2366,3,3,'male div/sep',36,3,1
+121,-1,'existing paid',radio/tv,1835,1,2,'female div/dep/mar',25,2,0
+122,0,'critical/other existing credit','used car',3868,1,4,'female div/dep/mar',41,3,1
+123,0,'existing paid',furniture/equipment,1768,1,2,'male single',24,1,1
+124,2,'critical/other existing credit','new car',781,1,4,'male single',63,2,1
+125,1,'existing paid',furniture/equipment,1924,0,1,'female div/dep/mar',27,2,0
+126,-1,'critical/other existing credit','new car',2121,1,2,'male single',30,2,1
+127,-1,'existing paid',radio/tv,701,1,2,'male mar/wid',40,1,1
+128,1,'existing paid',repairs,639,1,2,'male single',30,2,0
+129,1,'critical/other existing credit','used car',1860,1,0,'male single',34,3,1
+130,-1,'critical/other existing credit','new car',3499,1,2,'female div/dep/mar',29,2,0
+131,1,'existing paid','new car',8487,0,3,'female div/dep/mar',24,2,1
+132,-1,'delayed previously',education,6887,1,2,'male single',29,2,0
+133,0,'existing paid',furniture/equipment,2708,1,1,'male single',27,1,1
+134,0,'existing paid',furniture/equipment,1984,1,2,'male single',47,2,1
+135,0,'existing paid',radio/tv,10144,2,3,'female div/dep/mar',21,2,1
+136,0,'critical/other existing credit',radio/tv,1240,0,4,'female div/dep/mar',38,2,1
+137,0,'delayed previously','used car',8613,4,2,'male single',27,2,1
+138,1,'existing paid',radio/tv,766,3,2,'male single',66,1,0
+139,1,'critical/other existing credit',radio/tv,2728,0,3,'male single',35,2,1
+140,2,'existing paid',radio/tv,1881,1,2,'female div/dep/mar',44,1,1
+141,2,'existing paid','new car',709,4,1,'male mar/wid',27,0,1
+142,1,'existing paid',radio/tv,4795,1,1,'female div/dep/mar',30,3,1
+143,-1,'existing paid',radio/tv,3416,1,2,'male single',27,3,1
+144,-1,'existing paid',furniture/equipment,2462,1,2,'male single',22,2,0
+145,0,'critical/other existing credit',furniture/equipment,2288,1,1,'female div/dep/mar',23,2,1
+146,1,'all paid',business,3566,2,3,'male single',30,2,1
+147,-1,'critical/other existing credit','new car',860,1,4,'female div/dep/mar',39,2,1
+148,0,'critical/other existing credit','new car',682,2,3,'female div/dep/mar',51,2,1
+149,-1,'critical/other existing credit',furniture/equipment,5371,1,2,'male single',28,2,1
+150,0,'critical/other existing credit',radio/tv,1582,4,4,'male single',46,2,1
+151,0,'existing paid',radio/tv,1346,2,4,'male single',42,2,1
+152,0,'existing paid',radio/tv,1924,1,2,'male single',38,2,1
+153,2,'existing paid',radio/tv,5848,1,2,'male single',24,2,1
+154,1,'critical/other existing credit','used car',7758,4,4,'female div/dep/mar',29,2,1
+155,1,'delayed previously',business,6967,2,3,'male single',36,3,1
+156,-1,'existing paid',furniture/equipment,1282,1,2,'female div/dep/mar',20,2,0
+157,-1,'critical/other existing credit',repairs,1288,2,4,'male single',48,2,1
+158,-1,'all paid',retraining,339,1,4,'male mar/wid',45,1,1
+159,1,'existing paid','new car',3512,2,3,'male single',38,2,1
+160,0,'critical/other existing credit',radio/tv,1898,0,2,'male single',34,1,1
+161,0,'critical/other existing credit',radio/tv,2872,2,4,'male single',36,2,1
+162,0,'critical/other existing credit','new car',1055,1,1,'female div/dep/mar',30,2,1
+163,0,'existing paid','domestic appliance',1262,3,3,'male single',36,2,1
+164,1,'existing paid','new car',7308,1,0,'male single',70,3,1
+165,0,'existing paid','new car',909,3,4,'male single',36,2,1
+166,0,'existing paid',furniture/equipment,2978,3,2,'male single',32,2,1
+167,-1,'existing paid',furniture/equipment,1131,1,0,'female div/dep/mar',33,2,0
+168,1,'existing paid',furniture/equipment,1577,4,1,'female div/dep/mar',20,2,1
+169,0,'existing paid',furniture/equipment,3972,1,3,'female div/dep/mar',25,2,1
+170,1,'critical/other existing credit',business,1935,1,4,'male div/sep',31,2,0
+171,-1,'no credits/all paid','new car',950,1,4,'male single',33,2,0
+172,0,'existing paid',furniture/equipment,763,1,2,'female div/dep/mar',26,2,1
+173,1,'delayed previously',furniture/equipment,2064,1,0,'female div/dep/mar',34,3,0
+174,1,'existing paid',radio/tv,1414,1,2,'male single',33,2,1
+175,-1,'delayed previously',education,3414,1,1,'male single',26,2,0
+176,0,'all paid','used car',7485,0,0,'female div/dep/mar',53,3,0
+177,-1,'existing paid',furniture/equipment,2577,1,2,'male div/sep',42,2,1
+178,-1,'critical/other existing credit',radio/tv,338,3,4,'male single',52,2,1
+179,0,'existing paid',radio/tv,1963,1,3,'male single',31,3,1
+180,-1,'critical/other existing credit','new car',571,1,4,'male single',65,2,1
+181,0,'delayed previously',business,9572,1,1,'male div/sep',28,2,0
+182,1,'delayed previously',business,4455,1,2,'male div/sep',30,3,0
+183,-1,'all paid','new car',1647,0,2,'male single',40,1,0
+184,0,'critical/other existing credit',furniture/equipment,3777,4,2,'male single',50,2,1
+185,1,'critical/other existing credit','new car',884,1,4,'male single',36,2,0
+186,0,'critical/other existing credit',radio/tv,1360,1,2,'male single',31,2,1
+187,1,'all paid','used car',5129,1,4,'female div/dep/mar',74,3,0
+188,1,'critical/other existing credit','new car',1175,1,0,'male single',68,0,1
+189,-1,'existing paid',radio/tv,674,2,3,'male mar/wid',20,2,0
+190,1,'no credits/all paid',furniture/equipment,3244,1,2,'female div/dep/mar',33,2,1
+191,0,'existing paid',business,4591,4,2,'male single',54,3,0
+192,1,'no credits/all paid',business,3844,2,3,'male single',34,1,0
+193,1,'existing paid',business,3915,1,2,'male single',36,2,0
+194,0,'existing paid',radio/tv,2108,1,3,'male mar/wid',29,2,1
+195,1,'existing paid',radio/tv,3031,2,2,'male single',21,2,0
+196,1,'critical/other existing credit',education,1501,1,4,'female div/dep/mar',34,3,0
+197,0,'critical/other existing credit',radio/tv,1382,1,2,'female div/dep/mar',28,2,1
+198,1,'existing paid',furniture/equipment,951,2,1,'female div/dep/mar',27,2,0
+199,1,'existing paid','used car',2760,0,4,'male single',36,2,1
+200,1,'delayed previously',furniture/equipment,4297,1,4,'male div/sep',40,3,0
+201,0,'critical/other existing credit',education,936,3,4,'male single',52,2,1
+202,-1,'existing paid','new car',1168,1,2,'male mar/wid',27,1,1
+203,0,'delayed previously',business,5117,1,3,'male single',26,2,1
+204,-1,'existing paid',retraining,902,1,3,'male mar/wid',21,2,0
+205,0,'critical/other existing credit','new car',1495,1,4,'male single',38,1,1
+206,-1,'critical/other existing credit','used car',10623,1,4,'male single',38,3,1
+207,0,'critical/other existing credit',furniture/equipment,1935,1,4,'male single',43,2,1
+208,1,'critical/other existing credit','domestic appliance',1424,1,3,'male single',26,2,1
+209,-1,'existing paid',business,6568,1,2,'male mar/wid',21,1,1
+210,0,'existing paid','used car',1413,4,3,'male single',55,2,1
+211,0,'critical/other existing credit',radio/tv,3074,0,2,'male single',33,2,1
+212,0,'existing paid',radio/tv,3835,0,4,'female div/dep/mar',45,1,1
+213,-1,'no credits/all paid',business,5293,1,0,'male single',50,2,0
+214,2,'delayed previously',business,1908,1,4,'male single',66,3,0
+215,0,'critical/other existing credit',radio/tv,3342,0,4,'male single',51,2,1
+216,1,'critical/other existing credit',retraining,932,0,3,'female div/dep/mar',39,1,1
+217,-1,'no credits/all paid',business,3104,1,3,'male single',31,2,1
+218,2,'existing paid',radio/tv,3913,1,2,'male single',23,2,1
+219,-1,'existing paid',furniture/equipment,3021,1,2,'male div/sep',24,1,1
+220,0,'existing paid','new car',1364,1,2,'female div/dep/mar',64,2,1
+221,1,'existing paid',radio/tv,625,1,1,'male mar/wid',26,1,1
+222,-1,'existing paid',education,1200,0,2,'female div/dep/mar',23,2,1
+223,0,'existing paid',radio/tv,707,1,2,'male single',30,2,1
+224,0,'delayed previously',business,2978,0,2,'male single',32,2,1
+225,0,'existing paid','used car',4657,1,2,'male single',30,2,1
+226,0,'no credits/all paid',repairs,2613,1,2,'male single',27,2,1
+227,1,'existing paid',radio/tv,10961,4,3,'male single',27,2,0
+228,-1,'existing paid',furniture/equipment,7865,1,4,'male single',53,3,0
+229,0,'existing paid',radio/tv,1478,1,3,'male single',22,2,0
+230,-1,'existing paid',furniture/equipment,3149,1,1,'male single',22,2,1
+231,2,'existing paid',radio/tv,4210,1,2,'male single',26,2,0
+232,0,'existing paid','new car',2507,3,4,'male single',51,1,1
+233,0,'existing paid',radio/tv,2141,2,3,'male single',35,2,1
+234,1,'existing paid',radio/tv,866,1,2,'male mar/wid',25,1,1
+235,0,'critical/other existing credit',radio/tv,1544,1,3,'male single',42,1,1
+236,-1,'existing paid',radio/tv,1823,1,0,'male single',30,3,0
+237,1,'existing paid','new car',14555,0,0,'male single',23,0,0
+238,1,'existing paid',business,2767,2,4,'male div/sep',61,1,0
+239,0,'critical/other existing credit',radio/tv,1291,1,2,'female div/dep/mar',35,2,1
+240,-1,'existing paid',radio/tv,2522,1,4,'male single',39,2,1
+241,-1,'existing paid','new car',915,0,4,'female div/dep/mar',29,2,0
+242,0,'existing paid',radio/tv,1595,1,3,'male single',51,2,1
+243,-1,'no credits/all paid','used car',4605,1,4,'male single',24,2,0
+244,0,'critical/other existing credit',business,1185,1,2,'female div/dep/mar',27,2,1
+245,0,'all paid',retraining,3447,3,2,'female div/dep/mar',35,1,1
+246,0,'existing paid',business,1258,1,3,'male single',25,2,1
+247,0,'critical/other existing credit',radio/tv,717,1,4,'male single',52,2,1
+248,0,'no credits/all paid','new car',1204,2,2,'male single',35,2,1
+249,2,'existing paid',furniture/equipment,1925,1,2,'male single',26,2,1
+250,0,'existing paid',radio/tv,433,1,0,'female div/dep/mar',22,2,0
+251,-1,'critical/other existing credit','new car',666,4,3,'female div/dep/mar',39,1,1
+252,2,'existing paid',furniture/equipment,2251,1,2,'female div/dep/mar',46,1,1
+253,1,'existing paid','new car',2150,1,2,'female div/dep/mar',24,2,0
+254,0,'delayed previously',furniture/equipment,4151,2,2,'male single',35,2,1
+255,1,'existing paid',furniture/equipment,2030,0,3,'male single',24,2,1
+256,1,'delayed previously',radio/tv,7418,0,2,'male single',27,1,1
+257,0,'critical/other existing credit',radio/tv,2684,1,2,'male single',35,1,1
+258,-1,'all paid',radio/tv,2149,1,2,'male div/sep',29,2,0
+259,0,'existing paid','used car',3812,2,1,'female div/dep/mar',23,2,1
+260,0,'critical/other existing credit',radio/tv,1154,2,0,'female div/dep/mar',57,1,1
+261,-1,'existing paid',furniture/equipment,1657,1,2,'male single',27,2,1
+262,-1,'existing paid',radio/tv,1603,1,4,'female div/dep/mar',55,2,1
+263,-1,'critical/other existing credit','new car',5302,1,4,'male single',36,3,1
+264,0,'critical/other existing credit',education,2748,1,4,'female div/dep/mar',57,1,1
+265,0,'critical/other existing credit','new car',1231,1,4,'male single',32,1,1
+266,1,'existing paid',radio/tv,802,1,4,'male single',37,2,0
+267,0,'critical/other existing credit',business,6304,0,4,'male single',36,2,1
+268,0,'existing paid',radio/tv,1533,1,1,'female div/dep/mar',38,2,1
+269,-1,'existing paid','new car',8978,1,4,'male div/sep',45,3,0
+270,0,'existing paid',radio/tv,999,0,4,'male single',25,2,1
+271,0,'existing paid','new car',2662,0,3,'male single',32,2,1
+272,0,'critical/other existing credit',furniture/equipment,1402,3,3,'female div/dep/mar',37,2,1
+273,1,'all paid','new car',12169,0,0,'male single',36,3,1
+274,1,'existing paid',radio/tv,3060,1,3,'male single',28,2,0
+275,-1,'existing paid',repairs,11998,1,1,'male div/sep',34,1,0
+276,0,'existing paid',radio/tv,2697,1,2,'male single',32,2,1
+277,0,'critical/other existing credit',radio/tv,2404,1,2,'female div/dep/mar',26,2,1
+278,-1,'existing paid',furniture/equipment,1262,0,4,'male div/sep',49,1,1
+279,0,'existing paid',furniture/equipment,4611,1,1,'female div/dep/mar',32,2,0
+280,0,'existing paid',radio/tv,1901,2,2,'male single',29,3,1
+281,0,'critical/other existing credit','used car',3368,4,4,'male single',23,2,1
+282,0,'existing paid',furniture/equipment,1574,1,2,'male single',50,2,1
+283,2,'all paid',radio/tv,1445,0,3,'male single',49,1,1
+284,0,'critical/other existing credit',furniture/equipment,1520,0,4,'male single',63,2,1
+285,1,'critical/other existing credit','new car',3878,2,1,'male div/sep',37,2,1
+286,-1,'existing paid','new car',10722,1,1,'female div/dep/mar',35,1,1
+287,-1,'existing paid','used car',4788,1,3,'male single',26,2,1
+288,1,'delayed previously',other,7582,2,0,'male single',31,3,1
+289,1,'existing paid',radio/tv,1092,1,2,'female div/dep/mar',49,2,1
+290,-1,'delayed previously',radio/tv,1024,1,1,'male mar/wid',48,2,0
+291,0,'existing paid',business,1076,1,2,'male mar/wid',26,2,1
+292,1,'existing paid','used car',9398,1,1,'male mar/wid',28,3,0
+293,-1,'critical/other existing credit','used car',6419,1,4,'female div/dep/mar',44,3,1
+294,2,'critical/other existing credit','used car',4796,1,4,'male single',56,2,1
+295,0,'critical/other existing credit',business,7629,0,4,'male div/sep',46,3,1
+296,1,'existing paid',furniture/equipment,9960,1,1,'female div/dep/mar',26,2,0
+297,0,'existing paid','used car',4675,0,1,'female div/dep/mar',20,2,1
+298,0,'existing paid','new car',1287,0,4,'male single',45,1,1
+299,0,'existing paid',furniture/equipment,2515,1,2,'male single',43,2,1
+300,1,'critical/other existing credit',furniture/equipment,2745,4,3,'male single',32,2,1
+301,0,'existing paid','new car',672,1,0,'female div/dep/mar',54,0,1
+302,1,'no credits/all paid',radio/tv,3804,1,2,'female div/dep/mar',42,2,0
+303,2,'critical/other existing credit','new car',1344,0,3,'male single',37,1,0
+304,-1,'critical/other existing credit','new car',1038,1,3,'male single',49,2,1
+305,0,'critical/other existing credit','new car',10127,3,2,'male single',35,2,0
+306,0,'existing paid',furniture/equipment,1543,4,2,'male div/sep',33,2,1
+307,0,'existing paid','used car',4811,0,3,'female div/dep/mar',24,1,1
+308,-1,'existing paid',radio/tv,727,2,1,'male mar/wid',33,1,0
+309,1,'existing paid',furniture/equipment,1237,1,2,'female div/dep/mar',24,2,0
+310,1,'existing paid','new car',276,1,2,'male mar/wid',22,1,1
+311,1,'existing paid',other,5381,0,0,'male single',40,0,1
+312,0,'existing paid',furniture/equipment,5511,2,2,'male single',25,2,1
+313,2,'existing paid',furniture/equipment,3749,1,1,'female div/dep/mar',26,2,1
+314,1,'existing paid','new car',685,1,3,'male mar/wid',25,1,0
+315,2,'existing paid','new car',1494,0,1,'male single',29,1,1
+316,-1,'all paid',furniture/equipment,2746,1,4,'male single',31,2,0
+317,-1,'existing paid',furniture/equipment,708,1,2,'male single',38,1,1
+318,1,'existing paid',furniture/equipment,4351,0,2,'female div/dep/mar',48,1,1
+319,0,'critical/other existing credit',education,701,1,2,'male single',32,2,1
+320,-1,'delayed previously',furniture/equipment,3643,1,4,'female div/dep/mar',27,1,1
+321,1,'critical/other existing credit','new car',4249,1,0,'male mar/wid',28,3,0
+322,-1,'existing paid',radio/tv,1938,1,1,'male div/sep',32,2,0
+323,-1,'existing paid','used car',2910,1,3,'male single',34,3,1
+324,-1,'existing paid',furniture/equipment,2659,4,2,'male single',28,2,1
+325,0,'critical/other existing credit','new car',1028,1,2,'female div/dep/mar',36,2,1
+326,-1,'critical/other existing credit','new car',3398,1,3,'male single',39,1,1
+327,0,'critical/other existing credit',furniture/equipment,5801,0,4,'male single',49,2,1
+328,0,'existing paid','new car',1525,4,3,'female div/dep/mar',34,2,1
+329,2,'existing paid',radio/tv,4473,1,4,'male single',31,2,1
+330,1,'existing paid',radio/tv,1068,1,4,'male single',28,2,1
+331,-1,'critical/other existing credit','used car',6615,1,0,'male single',75,3,1
+332,0,'critical/other existing credit',education,1864,2,2,'female div/dep/mar',30,2,0
+333,1,'existing paid','new car',7408,2,1,'female div/dep/mar',24,3,0
+334,0,'critical/other existing credit','used car',11590,2,2,'female div/dep/mar',24,1,0
+335,-1,'no credits/all paid',furniture/equipment,4110,1,4,'male single',23,2,0
+336,-1,'critical/other existing credit',furniture/equipment,3384,1,2,'male div/sep',44,3,0
+337,1,'existing paid',radio/tv,2101,1,1,'female div/dep/mar',23,1,1
+338,-1,'existing paid','domestic appliance',1275,0,2,'female div/dep/mar',24,2,0
+339,-1,'existing paid',furniture/equipment,4169,1,2,'male single',28,2,1
+340,1,'existing paid',furniture/equipment,1521,1,2,'male div/sep',31,1,1
+341,1,'critical/other existing credit',education,5743,1,1,'female div/dep/mar',24,2,1
+342,-1,'existing paid',furniture/equipment,3599,1,3,'female div/dep/mar',26,1,1
+343,1,'existing paid',radio/tv,3213,3,1,'male mar/wid',25,2,1
+344,1,'existing paid',business,4439,1,4,'male single',33,3,1
+345,2,'existing paid','new car',3949,1,1,'male single',37,1,1
+346,0,'critical/other existing credit',radio/tv,1459,1,2,'female div/dep/mar',43,1,1
+347,1,'critical/other existing credit',radio/tv,882,1,1,'male single',23,2,1
+348,1,'existing paid',radio/tv,3758,3,0,'female div/dep/mar',23,0,1
+349,0,'delayed previously',business,1743,2,2,'male single',34,1,1
+350,1,'critical/other existing credit',education,1136,4,4,'male single',32,2,0
+351,0,'existing paid','domestic appliance',1236,1,1,'female div/dep/mar',23,2,1
+352,1,'existing paid',furniture/equipment,959,1,2,'female div/dep/mar',29,2,0
+353,0,'critical/other existing credit','used car',3229,0,0,'male single',38,3,1
+354,-1,'no credits/all paid',radio/tv,6199,1,2,'male single',28,2,0
+355,0,'existing paid',education,727,3,4,'male single',46,2,1
+356,1,'existing paid','new car',1246,1,1,'male single',23,1,0
+357,0,'critical/other existing credit',radio/tv,2331,0,4,'male single',49,2,1
+358,0,'delayed previously',radio/tv,4463,1,2,'male single',26,3,0
+359,0,'existing paid',radio/tv,776,1,2,'male mar/wid',28,2,1
+360,-1,'existing paid',furniture/equipment,2406,1,3,'female div/dep/mar',23,2,0
+361,1,'existing paid',education,1239,0,2,'male single',61,2,1
+362,2,'existing paid',radio/tv,3399,0,4,'male single',37,3,1
+363,2,'delayed previously','new car',2247,1,2,'female div/dep/mar',36,2,1
+364,0,'existing paid',furniture/equipment,1766,1,2,'male mar/wid',21,2,1
+365,-1,'existing paid',furniture/equipment,2473,1,0,'male single',25,0,0
+366,0,'existing paid',business,1542,1,3,'male single',36,2,1
+367,0,'critical/other existing credit','used car',3850,1,3,'male single',27,2,1
+368,-1,'existing paid',furniture/equipment,3650,1,1,'female div/dep/mar',22,2,1
+369,-1,'existing paid',furniture/equipment,3446,1,4,'male single',42,2,0
+370,1,'existing paid',furniture/equipment,3001,1,3,'female div/dep/mar',40,2,1
+371,0,'existing paid','new car',3079,0,2,'male single',36,2,1
+372,0,'critical/other existing credit',radio/tv,6070,1,4,'male single',33,2,1
+373,0,'critical/other existing credit',furniture/equipment,2146,1,1,'female div/dep/mar',23,2,1
+374,0,'critical/other existing credit','new car',13756,0,4,'male single',63,3,1
+375,1,'all paid',other,14782,2,4,'female div/dep/mar',60,3,0
+376,-1,'all paid',business,7685,1,3,'female div/dep/mar',37,2,0
+377,0,'delayed previously',radio/tv,2320,1,0,'male mar/wid',34,2,1
+378,0,'delayed previously',radio/tv,846,0,4,'male single',36,2,1
+379,1,'existing paid','new car',14318,1,4,'male single',57,3,0
+380,0,'critical/other existing credit','new car',362,2,2,'female div/dep/mar',52,1,1
+381,-1,'existing paid',furniture/equipment,2212,0,3,'male single',39,2,1
+382,1,'existing paid','used car',12976,1,0,'female div/dep/mar',38,3,0
+383,0,'existing paid','new car',1283,0,3,'female div/dep/mar',25,2,1
+384,2,'existing paid','new car',1330,1,1,'male single',26,2,1
+385,0,'delayed previously',business,4272,2,2,'male single',26,1,1
+386,0,'critical/other existing credit',radio/tv,2238,1,2,'female div/dep/mar',25,2,1
+387,0,'existing paid',radio/tv,1126,0,1,'female div/dep/mar',21,2,1
+388,1,'critical/other existing credit',furniture/equipment,7374,1,0,'male single',40,3,1
+389,1,'critical/other existing credit',business,2326,3,2,'male single',27,2,1
+390,0,'existing paid',business,1449,1,3,'female div/dep/mar',27,2,1
+391,0,'existing paid','new car',1820,1,2,'male mar/wid',30,3,1
+392,1,'existing paid',furniture/equipment,983,4,1,'female div/dep/mar',19,1,1
+393,-1,'existing paid','new car',3249,1,3,'male single',39,3,1
+394,-1,'critical/other existing credit',radio/tv,1957,1,3,'female div/dep/mar',31,2,1
+395,0,'critical/other existing credit',furniture/equipment,2406,1,0,'male single',31,3,1
+396,1,'delayed previously',education,11760,2,3,'male single',32,2,1
+397,-1,'existing paid',furniture/equipment,2578,1,0,'female div/dep/mar',55,3,1
+398,-1,'critical/other existing credit',furniture/equipment,2348,1,2,'male mar/wid',46,2,1
+399,1,'existing paid','new car',1223,1,4,'male div/sep',46,2,0
+400,0,'critical/other existing credit',radio/tv,1516,4,2,'female div/dep/mar',43,1,1
+401,0,'existing paid',radio/tv,1473,1,1,'male mar/wid',39,2,1
+402,1,'critical/other existing credit',business,1887,0,2,'male mar/wid',28,2,1
+403,0,'delayed previously',business,8648,1,1,'male single',27,2,0
+404,0,'delayed previously','new car',802,1,2,'male single',27,1,1
+405,1,'delayed previously','new car',2899,0,4,'male single',43,2,1
+406,1,'existing paid',radio/tv,2039,1,1,'male mar/wid',22,2,0
+407,0,'critical/other existing credit','used car',2197,0,3,'male single',43,2,1
+408,-1,'existing paid',radio/tv,1053,1,1,'male mar/wid',27,2,1
+409,0,'existing paid',radio/tv,3235,3,4,'male div/sep',26,3,1
+410,2,'critical/other existing credit','new car',939,3,3,'male mar/wid',28,2,0
+411,1,'existing paid',radio/tv,1967,1,4,'female div/dep/mar',20,2,1
+412,0,'critical/other existing credit','used car',7253,1,3,'male single',35,3,1
+413,0,'critical/other existing credit',business,2292,1,0,'male single',42,3,0
+414,0,'existing paid','new car',1597,3,2,'male single',40,1,1
+415,-1,'existing paid','new car',1381,0,2,'female div/dep/mar',35,2,0
+416,0,'critical/other existing credit','used car',5842,1,4,'male single',35,2,1
+417,-1,'existing paid','new car',2579,1,1,'male single',33,1,0
+418,-1,'delayed previously',education,8471,0,2,'female div/dep/mar',23,2,1
+419,0,'existing paid','new car',2782,3,3,'female div/dep/mar',31,3,1
+420,1,'existing paid','new car',1042,0,2,'female div/dep/mar',33,2,0
+421,0,'existing paid','new car',3186,4,3,'female div/dep/mar',20,2,1
+422,1,'existing paid','used car',2028,0,2,'male single',30,2,1
+423,1,'critical/other existing credit','new car',958,1,3,'male single',47,1,1
+424,0,'delayed previously',furniture/equipment,1591,2,3,'male single',34,3,1
+425,1,'existing paid',furniture/equipment,2762,0,4,'female div/dep/mar',25,2,0
+426,1,'existing paid','used car',2779,1,2,'male mar/wid',21,2,1
+427,0,'critical/other existing credit',radio/tv,2743,1,4,'male single',29,2,1
+428,0,'critical/other existing credit',radio/tv,1149,4,2,'male single',46,2,1
+429,0,'existing paid',furniture/equipment,1313,1,4,'male single',20,2,1
+430,-1,'critical/other existing credit',repairs,1190,1,0,'female div/dep/mar',55,0,0
+431,0,'existing paid',business,3448,1,3,'male single',74,1,1
+433,-1,'critical/other existing credit',furniture/equipment,1872,1,0,'male single',36,3,1
+434,0,'critical/other existing credit',repairs,2058,1,2,'male div/sep',33,2,1
+435,-1,'existing paid',furniture/equipment,2136,1,2,'male single',25,2,1
+436,1,'existing paid',radio/tv,1484,0,2,'male mar/wid',25,2,0
+437,0,'existing paid',repairs,660,3,3,'male mar/wid',23,1,1
+438,0,'critical/other existing credit','new car',1287,4,4,'female div/dep/mar',37,2,1
+439,-1,'critical/other existing credit',repairs,3394,1,0,'male single',65,0,1
+440,2,'all paid',business,609,1,1,'female div/dep/mar',26,0,0
+441,0,'existing paid','new car',1884,1,4,'male single',39,3,1
+442,-1,'existing paid',furniture/equipment,1620,1,2,'female div/dep/mar',30,2,1
+443,1,'delayed previously',other,2629,1,2,'male single',29,2,1
+445,1,'critical/other existing credit',furniture/equipment,5096,1,2,'female div/dep/mar',30,3,0
+446,0,'critical/other existing credit',education,1244,0,4,'female div/dep/mar',41,1,1
+447,-1,'existing paid','new car',1842,1,1,'female div/dep/mar',34,2,0
+448,1,'existing paid',radio/tv,2576,1,2,'male single',35,2,1
+449,2,'existing paid',furniture/equipment,1424,0,4,'female div/dep/mar',55,3,1
+450,1,'delayed previously',repairs,1512,4,2,'male mar/wid',61,2,0
+451,0,'critical/other existing credit','used car',11054,0,2,'male single',30,3,1
+453,0,'no credits/all paid',furniture/equipment,2759,1,4,'male single',34,2,1
+454,0,'existing paid','used car',2670,1,4,'male single',35,3,1
+455,-1,'existing paid','new car',4817,1,3,'male single',31,2,0
+456,0,'existing paid','used car',2679,1,1,'female div/dep/mar',29,3,1
+457,-1,'critical/other existing credit','new car',3905,1,2,'male single',36,2,1
+458,-1,'existing paid','used car',3386,1,4,'male single',35,2,0
+459,-1,'existing paid','domestic appliance',343,1,1,'female div/dep/mar',27,2,1
+460,0,'existing paid',radio/tv,4594,1,1,'male single',32,2,1
+461,-1,'existing paid',furniture/equipment,3620,1,2,'male single',37,2,1
+462,-1,'existing paid','new car',1721,1,1,'male single',36,2,1
+463,1,'existing paid',furniture/equipment,3017,1,1,'female div/dep/mar',34,3,1
+464,1,'existing paid',retraining,754,0,4,'male single',38,2,1
+465,0,'existing paid',business,1950,1,3,'male single',34,2,1
+466,-1,'existing paid','used car',2924,1,2,'male single',63,2,1
+467,-1,'delayed previously',radio/tv,1659,1,1,'female div/dep/mar',29,1,0
+468,0,'delayed previously',radio/tv,7238,0,4,'male single',32,2,1
+469,0,'delayed previously',business,2764,1,2,'female div/dep/mar',26,2,1
+470,0,'delayed previously','used car',4679,1,3,'male single',35,1,1
+471,1,'existing paid',radio/tv,3092,2,1,'male mar/wid',22,2,0
+472,-1,'existing paid',education,448,1,1,'female div/dep/mar',23,2,0
+473,-1,'existing paid','new car',654,1,2,'male single',28,1,0
+474,0,'existing paid',retraining,1238,0,0,'male single',36,3,1
+475,1,'critical/other existing credit',radio/tv,1245,1,2,'male mar/wid',33,2,0
+476,-1,'no credits/all paid',furniture/equipment,3114,1,1,'female div/dep/mar',26,2,0
+477,0,'existing paid','used car',2569,3,2,'male single',24,2,1
+478,2,'existing paid',radio/tv,5152,1,3,'male single',25,2,1
+479,1,'existing paid',business,1037,2,3,'male single',39,1,1
+480,-1,'critical/other existing credit',furniture/equipment,1478,1,4,'male single',44,2,1
+481,1,'critical/other existing credit',radio/tv,3573,1,2,'female div/dep/mar',23,1,1
+482,1,'existing paid','new car',1201,1,1,'male single',26,2,1
+483,-1,'existing paid',furniture/equipment,3622,4,4,'female div/dep/mar',57,2,1
+484,0,'delayed previously',furniture/equipment,960,4,3,'female div/dep/mar',30,2,1
+485,0,'critical/other existing credit','new car',1163,3,2,'male single',44,2,1
+486,1,'delayed previously','new car',1209,1,0,'male single',47,3,0
+487,0,'existing paid',radio/tv,3077,1,2,'male single',52,2,1
+488,0,'existing paid','new car',3757,1,4,'female div/dep/mar',62,2,1
+489,0,'existing paid','new car',1418,2,2,'male single',35,1,1
+490,0,'existing paid','new car',3518,1,2,'male single',26,2,1
+491,0,'critical/other existing credit',radio/tv,1934,1,4,'male single',26,2,1
+492,1,'no credits/all paid',business,8318,1,4,'female div/dep/mar',42,3,0
+493,0,'critical/other existing credit',radio/tv,1237,2,2,'female div/dep/mar',27,2,1
+494,1,'existing paid',radio/tv,368,0,4,'male single',38,2,1
+495,-1,'critical/other existing credit','new car',2122,1,2,'male single',39,1,1
+496,-1,'existing paid',furniture/equipment,2996,0,2,'male mar/wid',20,2,0
+497,1,'existing paid',furniture/equipment,9034,2,1,'male single',29,3,0
+498,0,'critical/other existing credit',furniture/equipment,1585,1,3,'male single',40,2,1
+499,1,'existing paid',radio/tv,1301,1,4,'male mar/wid',32,1,1
+500,2,'critical/other existing credit','new car',1323,2,4,'male div/sep',28,2,1
+501,-1,'existing paid','new car',3123,1,1,'female div/dep/mar',27,2,0
+502,-1,'existing paid','used car',5493,1,4,'male single',42,2,1
+503,2,'existing paid',radio/tv,1126,2,4,'male div/sep',49,2,1
+504,1,'critical/other existing credit',radio/tv,1216,2,1,'male single',38,2,0
+505,-1,'existing paid','new car',1207,1,1,'female div/dep/mar',24,2,0
+506,0,'existing paid','new car',1309,0,2,'male single',27,1,0
+507,2,'critical/other existing credit','used car',2360,3,2,'male single',36,2,1
+508,1,'all paid','new car',6850,2,0,'male single',34,3,0
+509,0,'existing paid',radio/tv,1413,1,2,'male mar/wid',28,2,1
+510,0,'existing paid','used car',8588,2,4,'male single',45,3,1
+511,-1,'existing paid','new car',759,1,3,'male single',26,2,0
+512,0,'existing paid','used car',4686,1,2,'male single',32,3,1
+513,2,'existing paid',business,2687,1,3,'male single',26,2,1
+515,0,'existing paid','new car',2255,0,1,'male single',54,2,1
+516,-1,'critical/other existing credit','new car',609,1,3,'female div/dep/mar',37,2,1
+517,-1,'critical/other existing credit','new car',1361,1,1,'male single',40,1,1
+518,0,'critical/other existing credit',furniture/equipment,7127,1,1,'female div/dep/mar',23,2,0
+519,-1,'existing paid','new car',1203,2,4,'male single',43,2,1
+520,0,'critical/other existing credit',radio/tv,700,0,4,'male single',36,2,1
+521,0,'critical/other existing credit',repairs,5507,1,4,'male single',44,2,1
+522,-1,'existing paid',radio/tv,3190,1,2,'female div/dep/mar',24,2,0
+523,-1,'no credits/all paid',furniture/equipment,7119,1,2,'male single',53,2,0
+524,0,'existing paid','used car',3488,2,3,'female div/dep/mar',23,2,1
+525,1,'existing paid',radio/tv,1113,1,2,'female div/dep/mar',26,1,1
+526,1,'existing paid','used car',7966,1,1,'male single',30,2,1
+527,0,'critical/other existing credit',education,1532,2,2,'female div/dep/mar',31,2,1
+528,0,'critical/other existing credit',radio/tv,1503,1,3,'male single',42,1,1
+529,-1,'existing paid',radio/tv,2302,1,2,'male div/sep',31,2,0
+530,-1,'existing paid','new car',662,1,1,'male single',41,1,1
+531,1,'existing paid',education,2273,1,3,'male single',32,2,1
+532,1,'existing paid','new car',2631,2,2,'female div/dep/mar',28,2,0
+533,0,'delayed previously','used car',1503,1,2,'male mar/wid',41,2,1
+534,0,'existing paid',radio/tv,1311,2,3,'male mar/wid',26,2,1
+535,0,'existing paid',radio/tv,3105,0,1,'male single',25,2,1
+536,2,'critical/other existing credit',education,2319,1,1,'male div/sep',33,2,0
+537,-1,'existing paid','new car',1374,0,0,'female div/dep/mar',75,3,1
+538,1,'critical/other existing credit',furniture/equipment,3612,1,4,'female div/dep/mar',37,2,1
+539,-1,'existing paid','new car',7763,1,4,'male single',42,3,0
+540,2,'existing paid',furniture/equipment,3049,1,1,'female div/dep/mar',45,1,1
+541,1,'existing paid',radio/tv,1534,1,1,'male mar/wid',23,2,0
+542,0,'delayed previously','new car',2032,1,4,'male single',60,2,1
+543,-1,'existing paid',furniture/equipment,6350,0,4,'male single',31,2,0
+544,2,'existing paid',furniture/equipment,2864,1,2,'male single',34,1,0
+545,0,'critical/other existing credit','new car',1255,1,4,'male single',61,1,1
+546,-1,'delayed previously','new car',1333,1,0,'male single',43,2,0
+547,0,'critical/other existing credit','new car',2022,1,2,'female div/dep/mar',37,2,1
+548,0,'existing paid',radio/tv,1552,1,3,'male single',32,2,1
+549,-1,'all paid',radio/tv,626,1,2,'female div/dep/mar',24,1,0
+550,0,'critical/other existing credit','used car',8858,0,3,'male single',35,2,1
+551,0,'critical/other existing credit',repairs,996,0,3,'female div/dep/mar',23,2,1
+552,0,'all paid',radio/tv,1750,3,4,'male single',45,1,1
+553,-1,'existing paid',radio/tv,6999,1,3,'male mar/wid',34,2,0
+554,1,'critical/other existing credit','new car',1995,2,1,'male single',27,2,1
+555,1,'existing paid',education,1199,1,3,'female div/dep/mar',67,3,1
+556,1,'existing paid',radio/tv,1331,1,1,'male single',22,2,0
+557,1,'no credits/all paid','new car',2278,2,1,'female div/dep/mar',28,2,0
+558,0,'no credits/all paid','new car',5003,0,2,'female div/dep/mar',29,2,0
+559,-1,'all paid',furniture/equipment,3552,1,3,'male single',27,2,0
+561,-1,'existing paid','used car',2964,0,4,'male single',49,2,1
+562,-1,'all paid',radio/tv,1546,1,3,'male single',24,1,0
+563,2,'delayed previously',radio/tv,683,1,1,'female div/dep/mar',29,2,1
+564,1,'existing paid','new car',12389,0,2,'male single',37,2,0
+565,1,'delayed previously',business,4712,0,2,'male single',37,3,1
+566,1,'delayed previously',radio/tv,1553,2,3,'female div/dep/mar',23,2,1
+567,-1,'existing paid','new car',1372,1,3,'male div/sep',36,2,0
+568,0,'critical/other existing credit',radio/tv,2578,4,4,'male single',34,2,1
+569,1,'existing paid',radio/tv,3979,0,3,'male single',41,2,1
+570,-1,'existing paid',radio/tv,6758,1,2,'female div/dep/mar',31,2,0
+571,-1,'existing paid',furniture/equipment,3234,1,1,'female div/dep/mar',23,1,0
+572,0,'critical/other existing credit',radio/tv,5954,1,3,'male single',38,2,1
+573,0,'existing paid','used car',5433,0,0,'female div/dep/mar',26,3,1
+574,-1,'existing paid',business,806,1,2,'female div/dep/mar',22,1,1
+575,1,'existing paid',radio/tv,1082,1,4,'male single',27,1,1
+576,0,'critical/other existing credit',furniture/equipment,2788,1,3,'female div/dep/mar',24,2,1
+577,1,'existing paid',radio/tv,2930,1,3,'female div/dep/mar',27,2,1
+578,0,'critical/other existing credit',education,1927,0,2,'female div/dep/mar',33,2,1
+579,1,'critical/other existing credit','new car',2820,1,1,'male div/sep',27,2,0
+580,0,'existing paid',retraining,937,1,1,'male mar/wid',27,1,1
+581,1,'critical/other existing credit','new car',1056,1,4,'male single',30,2,0
+582,1,'critical/other existing credit','new car',3124,1,1,'male single',49,1,1
+583,0,'existing paid',furniture/equipment,1388,1,2,'female div/dep/mar',26,2,1
+584,1,'existing paid',repairs,2384,1,1,'male single',33,1,0
+585,0,'existing paid','new car',2133,0,4,'female div/dep/mar',52,3,1
+586,-1,'existing paid',furniture/equipment,2039,1,2,'female div/dep/mar',20,2,0
+587,-1,'critical/other existing credit','new car',2799,1,2,'male single',36,2,1
+588,-1,'existing paid',furniture/equipment,1289,1,2,'male single',21,1,1
+589,-1,'existing paid','domestic appliance',1217,1,2,'male mar/wid',47,1,0
+590,-1,'critical/other existing credit',furniture/equipment,2246,1,4,'male single',60,2,0
+591,-1,'critical/other existing credit',radio/tv,385,1,3,'female div/dep/mar',58,1,1
+592,1,'delayed previously','new car',1965,0,2,'female div/dep/mar',42,2,1
+593,0,'existing paid',business,1572,4,4,'female div/dep/mar',36,1,1
+594,1,'existing paid','new car',2718,1,2,'female div/dep/mar',20,1,0
+596,1,'all paid','new car',931,2,1,'female div/dep/mar',32,1,0
+597,-1,'existing paid','new car',1442,1,3,'female div/dep/mar',23,2,0
+598,1,'no credits/all paid',business,4241,1,2,'male single',36,1,0
+599,0,'critical/other existing credit','new car',2775,1,3,'male single',31,2,0
+600,0,'delayed previously',business,3863,1,2,'male single',32,2,1
+601,1,'existing paid',radio/tv,2329,1,1,'female div/dep/mar',45,2,1
+602,1,'existing paid',furniture/equipment,918,1,2,'female div/dep/mar',30,2,0
+603,1,'all paid',education,1837,1,3,'female div/dep/mar',34,1,0
+604,0,'existing paid',furniture/equipment,3349,1,2,'female div/dep/mar',28,3,0
+605,2,'existing paid',furniture/equipment,1275,1,1,'female div/dep/mar',23,2,1
+606,-1,'all paid',furniture/equipment,2828,3,2,'male single',22,2,1
+607,0,'critical/other existing credit',business,4526,1,2,'male single',74,3,1
+608,1,'existing paid',radio/tv,2671,2,2,'female div/dep/mar',50,2,0
+609,0,'existing paid',radio/tv,2051,1,1,'male single',33,2,1
+610,0,'existing paid','used car',1300,0,4,'male single',45,2,1
+611,-1,'existing paid','domestic appliance',741,2,0,'female div/dep/mar',22,2,0
+612,2,'existing paid','new car',1240,2,4,'female div/dep/mar',48,1,0
+613,-1,'existing paid',radio/tv,3357,4,1,'female div/dep/mar',29,2,1
+614,-1,'all paid','used car',3632,1,2,'female div/dep/mar',22,2,1
+615,0,'delayed previously',furniture/equipment,1808,1,3,'female div/dep/mar',22,2,0
+616,1,'no credits/all paid',business,12204,0,2,'male single',48,3,1
+617,1,'delayed previously',radio/tv,9157,0,2,'male single',27,3,1
+618,-1,'critical/other existing credit','new car',3676,1,2,'male single',37,2,1
+619,1,'existing paid',furniture/equipment,3441,2,2,'female div/dep/mar',21,2,0
+620,0,'existing paid','new car',640,1,2,'male div/sep',49,1,1
+621,1,'critical/other existing credit',business,3652,1,3,'male single',27,2,1
+622,0,'critical/other existing credit','new car',1530,1,2,'male single',32,2,0
+623,0,'existing paid',business,3914,0,2,'male div/sep',38,2,0
+624,-1,'existing paid',furniture/equipment,1858,1,1,'female div/dep/mar',22,2,1
+625,-1,'existing paid',radio/tv,2600,1,2,'male single',65,2,0
+626,0,'existing paid',radio/tv,1979,0,4,'male single',35,2,1
+627,2,'existing paid',furniture/equipment,2116,1,2,'male single',41,2,1
+628,1,'all paid','new car',1437,2,3,'male single',29,2,0
+629,0,'critical/other existing credit',furniture/equipment,4042,3,2,'male single',36,2,1
+630,0,'existing paid',education,3832,0,4,'male single',64,1,1
+631,-1,'existing paid',radio/tv,3660,1,2,'female div/dep/mar',28,2,1
+632,-1,'all paid',furniture/equipment,1553,1,2,'male single',44,2,0
+633,1,'existing paid',radio/tv,1444,0,1,'male single',23,2,1
+634,0,'existing paid',furniture/equipment,1980,1,1,'female div/dep/mar',19,2,0
+635,1,'existing paid','new car',1355,1,1,'female div/dep/mar',25,1,0
+636,0,'existing paid',education,1393,1,4,'male single',47,2,1
+637,0,'existing paid',radio/tv,1376,3,3,'female div/dep/mar',28,2,1
+638,0,'delayed previously',radio/tv,15653,1,3,'male single',21,2,1
+639,0,'existing paid',radio/tv,1493,1,1,'female div/dep/mar',34,2,1
+640,-1,'delayed previously',radio/tv,4370,1,3,'male single',26,2,0
+641,-1,'existing paid',education,750,1,0,'female div/dep/mar',27,0,0
+642,1,'existing paid',repairs,1308,1,4,'male single',38,1,1
+643,0,'existing paid',education,4623,2,2,'male single',40,3,0
+644,0,'critical/other existing credit',radio/tv,1851,1,3,'male mar/wid',33,2,1
+645,-1,'critical/other existing credit',radio/tv,1880,1,3,'male mar/wid',32,3,1
+646,0,'delayed previously',business,7980,0,1,'male single',27,2,0
+647,-1,'no credits/all paid',furniture/equipment,4583,1,2,'male div/sep',32,2,1
+649,2,'existing paid','new car',947,1,3,'male single',38,2,0
+650,-1,'existing paid',education,684,1,2,'male single',40,1,0
+651,-1,'existing paid',education,7476,1,3,'male single',50,3,1
+652,1,'existing paid',furniture/equipment,1922,1,2,'male single',37,1,0
+653,-1,'existing paid','new car',2303,1,4,'male single',45,2,0
+654,1,'delayed previously','new car',8086,2,4,'male single',42,3,0
+655,0,'critical/other existing credit','used car',2346,1,3,'male single',35,2,1
+656,-1,'existing paid','new car',3973,1,0,'male single',22,2,1
+657,1,'existing paid','new car',888,1,4,'male single',41,1,0
+658,0,'existing paid',radio/tv,10222,0,3,'male single',37,2,1
+659,1,'no credits/all paid',business,4221,1,2,'female div/dep/mar',28,2,1
+661,2,'existing paid',radio/tv,1297,1,2,'male mar/wid',23,2,1
+662,-1,'existing paid','new car',900,0,2,'male mar/wid',23,2,0
+663,0,'existing paid',furniture/equipment,2241,1,4,'male single',50,2,1
+664,1,'delayed previously',furniture/equipment,1050,1,0,'male single',35,3,1
+665,2,'critical/other existing credit',education,1047,1,2,'female div/dep/mar',50,1,1
+666,0,'critical/other existing credit',other,6314,1,0,'male single',27,3,1
+667,1,'all paid',furniture/equipment,3496,4,2,'male single',34,2,1
+668,0,'all paid',business,3609,1,2,'female div/dep/mar',27,2,1
+669,-1,'critical/other existing credit','new car',4843,1,4,'male single',43,2,0
+670,2,'critical/other existing credit',radio/tv,3017,1,4,'male single',47,2,1
+671,0,'critical/other existing credit',business,4139,2,2,'male single',27,1,1
+672,0,'existing paid',business,5742,2,3,'male single',31,2,1
+673,0,'existing paid','new car',10366,1,4,'male single',42,3,1
+674,0,'critical/other existing credit','new car',2080,3,2,'male mar/wid',24,2,1
+675,0,'delayed previously',business,2580,3,1,'male single',41,1,0
+676,0,'critical/other existing credit',radio/tv,4530,1,3,'female div/dep/mar',26,3,1
+677,0,'critical/other existing credit',furniture/equipment,5150,1,4,'male single',33,2,1
+678,1,'existing paid',radio/tv,5595,2,2,'male mar/wid',24,2,0
+679,-1,'existing paid',radio/tv,2384,1,4,'male single',64,1,1
+680,0,'existing paid',radio/tv,1453,1,1,'female div/dep/mar',26,2,1
+681,0,'existing paid',education,1538,1,1,'female div/dep/mar',56,2,1
+682,0,'existing paid',radio/tv,2279,0,2,'male single',37,2,1
+683,0,'delayed previously',radio/tv,1478,1,2,'male mar/wid',33,2,1
+684,0,'critical/other existing credit',radio/tv,5103,1,1,'male mar/wid',47,2,1
+685,1,'delayed previously',business,9857,2,3,'male single',31,1,1
+686,0,'existing paid','new car',6527,0,2,'male single',34,2,1
+687,2,'critical/other existing credit',radio/tv,1347,0,3,'male single',27,2,1
+688,1,'delayed previously','new car',2862,2,4,'male single',30,2,1
+689,0,'existing paid',radio/tv,2753,2,4,'male single',35,2,1
+690,-1,'existing paid','new car',3651,4,2,'male single',31,2,1
+691,-1,'critical/other existing credit',furniture/equipment,975,1,2,'male div/sep',25,2,1
+692,1,'existing paid',repairs,2631,2,2,'female div/dep/mar',25,1,1
+693,1,'existing paid',radio/tv,2896,2,1,'male single',29,2,1
+694,-1,'critical/other existing credit','new car',4716,0,1,'male single',44,1,1
+695,0,'existing paid',radio/tv,2284,1,3,'male single',28,2,1
+696,0,'existing paid','used car',1236,3,2,'male single',50,2,1
+697,1,'existing paid',radio/tv,1103,1,3,'male single',29,2,1
+698,0,'critical/other existing credit','new car',926,1,0,'female div/dep/mar',38,0,1
+699,0,'critical/other existing credit',radio/tv,1800,1,2,'male single',24,2,1
+700,2,'existing paid',education,1905,1,4,'male single',40,3,1
+701,0,'existing paid',furniture/equipment,1123,3,2,'female div/dep/mar',29,1,0
+702,-1,'critical/other existing credit','used car',6331,1,4,'male single',46,2,0
+703,2,'existing paid',radio/tv,1377,2,4,'female div/dep/mar',47,2,1
+704,1,'delayed previously',business,2503,2,4,'male single',41,2,1
+705,1,'existing paid',business,2528,1,1,'female div/dep/mar',32,2,1
+706,0,'existing paid','new car',5324,3,4,'female div/dep/mar',35,2,1
+707,1,'existing paid','new car',6560,2,3,'male single',24,2,0
+708,1,'no credits/all paid',furniture/equipment,2969,1,1,'female div/dep/mar',25,2,0
+709,1,'existing paid',radio/tv,1206,1,4,'female div/dep/mar',25,2,1
+710,1,'existing paid',radio/tv,2118,1,2,'male single',37,1,1
+711,0,'critical/other existing credit',radio/tv,629,3,4,'male single',32,3,1
+712,-1,'all paid',education,1198,1,4,'female div/dep/mar',35,2,0
+713,0,'existing paid','used car',2476,0,4,'male single',46,3,1
+714,-1,'critical/other existing credit',radio/tv,1138,1,2,'male single',25,1,1
+715,1,'existing paid','new car',14027,1,3,'male single',27,3,0
+716,0,'critical/other existing credit','used car',7596,0,4,'male single',63,2,1
+717,0,'critical/other existing credit',radio/tv,3077,0,4,'male single',40,2,1
+718,0,'existing paid',radio/tv,1505,1,2,'male single',32,3,1
+719,2,'critical/other existing credit',radio/tv,3148,0,2,'male single',31,2,1
+720,1,'no credits/all paid','used car',6148,2,4,'male mar/wid',31,2,1
+721,2,'no credits/all paid',radio/tv,1337,1,1,'male single',34,3,0
+722,1,'all paid',education,433,4,1,'female div/dep/mar',24,2,0
+723,-1,'existing paid','new car',1228,1,2,'female div/dep/mar',24,1,0
+724,1,'existing paid',radio/tv,790,3,2,'female div/dep/mar',66,1,1
+725,0,'existing paid','new car',2570,1,2,'female div/dep/mar',21,2,0
+726,0,'critical/other existing credit','new car',250,4,2,'female div/dep/mar',41,1,1
+727,0,'critical/other existing credit',radio/tv,1316,3,2,'male mar/wid',47,1,1
+728,-1,'existing paid',radio/tv,1882,1,2,'female div/dep/mar',25,2,0
+729,1,'all paid',business,6416,1,4,'female div/dep/mar',59,2,0
+730,2,'critical/other existing credit',business,1275,4,2,'male div/sep',36,2,1
+731,1,'delayed previously',radio/tv,6403,1,1,'male single',33,2,1
+732,-1,'existing paid',radio/tv,1987,1,2,'male single',21,1,0
+733,1,'existing paid',radio/tv,760,1,3,'female div/dep/mar',44,1,1
+734,0,'existing paid','used car',2603,4,2,'female div/dep/mar',28,2,1
+735,0,'critical/other existing credit','new car',3380,1,3,'female div/dep/mar',37,2,1
+736,1,'all paid','domestic appliance',3990,0,1,'female div/dep/mar',29,0,1
+737,1,'existing paid','used car',11560,1,2,'female div/dep/mar',23,3,0
+738,-1,'existing paid','new car',4380,2,2,'male single',35,1,1
+739,0,'critical/other existing credit','new car',6761,1,3,'male single',45,3,1
+740,1,'no credits/all paid',business,4280,2,2,'female div/dep/mar',26,1,0
+741,-1,'all paid','new car',2325,2,3,'male single',32,2,1
+742,1,'all paid',radio/tv,1048,1,2,'male single',23,1,1
+743,0,'existing paid',radio/tv,3160,0,4,'male single',41,2,1
+744,-1,'all paid',furniture/equipment,2483,3,2,'male single',22,2,1
+745,-1,'critical/other existing credit',furniture/equipment,14179,0,3,'male single',30,3,1
+746,-1,'critical/other existing credit',business,1797,1,1,'male single',28,1,1
+747,-1,'existing paid','new car',2511,1,0,'female div/dep/mar',23,2,1
+748,-1,'existing paid','new car',1274,1,1,'female div/dep/mar',37,1,0
+749,0,'existing paid','used car',5248,0,2,'male single',26,2,1
+750,0,'existing paid','used car',3029,1,3,'male single',33,2,1
+751,-1,'existing paid',furniture/equipment,428,1,4,'female div/dep/mar',49,2,1
+752,-1,'existing paid','new car',976,1,1,'female div/dep/mar',23,1,0
+753,1,'existing paid',business,841,2,3,'female div/dep/mar',23,1,1
+754,0,'critical/other existing credit',radio/tv,5771,1,3,'female div/dep/mar',25,2,1
+755,0,'delayed previously',repairs,1555,4,4,'male single',55,2,0
+756,-1,'existing paid','new car',1285,0,3,'female div/dep/mar',32,2,0
+757,2,'critical/other existing credit','new car',1299,1,2,'male single',74,0,1
+758,2,'critical/other existing credit',radio/tv,1271,0,2,'male single',39,2,0
+759,0,'existing paid','new car',1393,1,2,'male single',31,2,1
+760,-1,'critical/other existing credit','new car',691,1,4,'male single',35,2,0
+761,0,'critical/other existing credit','new car',5045,0,4,'female div/dep/mar',59,2,1
+762,-1,'critical/other existing credit',furniture/equipment,2124,1,2,'female div/dep/mar',24,2,0
+763,-1,'existing paid',radio/tv,2214,1,2,'male single',24,1,1
+764,0,'critical/other existing credit','new car',12680,0,4,'male single',30,3,0
+765,0,'critical/other existing credit','new car',2463,2,3,'male mar/wid',27,2,1
+766,1,'existing paid',radio/tv,1155,1,4,'male mar/wid',40,1,1
+767,-1,'existing paid',furniture/equipment,3108,1,1,'male div/sep',31,1,0
+768,0,'existing paid','used car',2901,0,1,'female div/dep/mar',31,2,1
+769,1,'critical/other existing credit',furniture/equipment,3617,1,4,'male single',28,2,1
+770,0,'critical/other existing credit',radio/tv,1655,1,4,'male single',63,1,1
+771,-1,'existing paid','used car',2812,0,4,'female div/dep/mar',26,2,1
+772,-1,'critical/other existing credit',education,8065,1,2,'female div/dep/mar',25,3,0
+773,0,'critical/other existing credit','used car',3275,1,4,'male single',36,3,1
+774,0,'critical/other existing credit',radio/tv,2223,2,4,'male single',52,2,1
+775,2,'critical/other existing credit','new car',1480,3,0,'male single',66,0,1
+776,-1,'existing paid','new car',1371,0,2,'female div/dep/mar',25,2,0
+777,0,'critical/other existing credit','new car',3535,1,3,'male single',37,2,1
+778,-1,'existing paid',radio/tv,3509,1,3,'female div/dep/mar',25,2,1
+779,0,'critical/other existing credit','used car',5711,4,4,'male single',38,3,1
+780,1,'existing paid',repairs,3872,1,0,'female div/dep/mar',67,2,1
+781,1,'critical/other existing credit',radio/tv,4933,1,3,'male single',25,2,0
+782,0,'critical/other existing credit','new car',1940,4,4,'male single',60,2,1
+783,1,'no credits/all paid',retraining,1410,1,2,'male single',31,1,1
+784,1,'existing paid','new car',836,2,1,'female div/dep/mar',23,1,0
+785,1,'existing paid','used car',6468,0,0,'male div/sep',60,3,1
+786,1,'existing paid',business,1941,4,2,'male single',35,1,1
+787,0,'existing paid',radio/tv,2675,3,4,'male single',40,2,1
+788,0,'critical/other existing credit','used car',2751,0,4,'male single',38,2,1
+789,1,'delayed previously',education,6224,1,4,'male single',50,2,0
+790,-1,'critical/other existing credit',education,5998,1,2,'male single',27,2,0
+791,1,'existing paid',business,1188,1,4,'female div/dep/mar',39,2,0
+792,0,'existing paid','used car',6313,0,4,'male single',41,3,1
+793,0,'critical/other existing credit',furniture/equipment,1221,0,2,'male mar/wid',27,2,1
+794,2,'existing paid',furniture/equipment,2892,1,4,'male div/sep',51,2,1
+795,0,'existing paid',furniture/equipment,3062,3,4,'male single',32,2,1
+796,0,'existing paid',furniture/equipment,2301,2,1,'female div/dep/mar',22,2,1
+797,-1,'existing paid','used car',7511,0,4,'male single',51,2,0
+798,0,'critical/other existing credit',furniture/equipment,1258,1,1,'female div/dep/mar',22,1,1
+799,0,'delayed previously','new car',717,0,4,'male mar/wid',54,2,1
+800,1,'existing paid','new car',1549,0,1,'male single',35,0,1
+801,0,'critical/other existing credit',education,1597,1,4,'male single',54,2,1
+802,1,'critical/other existing credit',radio/tv,1795,1,4,'female div/dep/mar',48,1,1
+803,-1,'critical/other existing credit',furniture/equipment,4272,1,4,'female div/dep/mar',24,2,1
+804,0,'critical/other existing credit',radio/tv,976,0,4,'male single',35,2,1
+805,1,'existing paid','new car',7472,0,0,'female div/dep/mar',24,0,1
+806,-1,'existing paid','new car',9271,1,3,'male single',24,2,0
+807,1,'existing paid',radio/tv,590,1,1,'male mar/wid',26,1,1
+808,0,'critical/other existing credit',radio/tv,930,0,4,'male single',65,2,1
+809,1,'all paid','used car',9283,1,0,'male single',55,3,1
+810,1,'no credits/all paid','new car',1778,1,1,'female div/dep/mar',26,0,0
+811,1,'existing paid',business,907,1,1,'male mar/wid',26,2,1
+812,1,'existing paid',radio/tv,484,1,3,'male mar/wid',28,1,1
+813,-1,'critical/other existing credit','used car',9629,1,3,'male single',24,2,0
+814,-1,'existing paid','domestic appliance',3051,1,2,'male single',54,2,0
+815,-1,'existing paid','new car',3931,1,3,'male single',46,2,0
+816,1,'delayed previously','new car',7432,1,2,'female div/dep/mar',54,2,1
+817,0,'existing paid','domestic appliance',1338,3,2,'male div/sep',62,2,1
+818,0,'critical/other existing credit',radio/tv,1554,1,3,'female div/dep/mar',24,2,1
+819,-1,'existing paid',other,15857,1,0,'male div/sep',43,3,1
+820,-1,'existing paid',radio/tv,1345,1,2,'male mar/wid',26,2,0
+821,0,'existing paid','new car',1101,1,2,'male mar/wid',27,2,1
+822,2,'existing paid',radio/tv,3016,1,2,'male mar/wid',24,2,1
+823,-1,'existing paid',furniture/equipment,2712,1,4,'male single',41,2,0
+824,-1,'critical/other existing credit','new car',731,1,4,'male single',47,1,1
+825,0,'critical/other existing credit',furniture/equipment,3780,1,1,'male div/sep',35,3,1
+826,-1,'critical/other existing credit','new car',1602,1,4,'male mar/wid',30,2,1
+827,-1,'critical/other existing credit','new car',3966,1,4,'female div/dep/mar',33,2,0
+828,0,'no credits/all paid',business,4165,1,2,'male single',36,2,0
+829,-1,'existing paid','used car',8335,0,4,'male single',47,2,0
+830,1,'delayed previously',business,6681,0,2,'male single',38,2,1
+831,0,'delayed previously',business,2375,3,2,'male single',44,2,1
+832,-1,'existing paid','new car',1216,1,1,'female div/dep/mar',23,2,0
+833,-1,'no credits/all paid',business,11816,1,4,'male single',29,2,0
+834,1,'existing paid',radio/tv,5084,0,4,'female div/dep/mar',42,2,1
+835,2,'existing paid',radio/tv,2327,1,1,'female div/dep/mar',25,1,0
+836,-1,'no credits/all paid','new car',1082,1,2,'male single',48,2,0
+837,0,'existing paid',radio/tv,886,0,2,'female div/dep/mar',21,2,1
+838,0,'existing paid',furniture/equipment,601,1,1,'female div/dep/mar',23,1,1
+839,-1,'critical/other existing credit','used car',2957,1,4,'male single',63,2,1
+840,0,'critical/other existing credit',radio/tv,2611,1,4,'male mar/wid',46,2,1
+841,-1,'existing paid',furniture/equipment,5179,1,3,'male single',29,2,0
+842,0,'delayed previously','used car',2993,1,2,'male single',28,1,1
+843,0,'existing paid',repairs,1943,1,1,'female div/dep/mar',23,2,0
+844,0,'all paid',business,1559,1,3,'male single',50,2,1
+845,0,'existing paid',furniture/equipment,3422,1,4,'male single',47,2,1
+846,1,'existing paid',furniture/equipment,3976,0,3,'male single',35,2,1
+847,0,'existing paid','new car',6761,0,2,'male single',68,2,0
+848,0,'existing paid','new car',1249,1,1,'male mar/wid',28,2,1
+849,-1,'existing paid',radio/tv,1364,1,3,'male single',59,2,1
+850,-1,'existing paid',radio/tv,709,1,4,'male single',57,1,0
+851,-1,'critical/other existing credit','new car',2235,1,2,'male mar/wid',33,2,0
+852,0,'critical/other existing credit','used car',4042,0,3,'male single',43,2,1
+853,0,'critical/other existing credit',radio/tv,1471,1,2,'male single',35,2,1
+854,-1,'all paid','new car',1442,1,3,'male single',32,1,0
+855,0,'delayed previously','new car',10875,1,4,'male single',45,2,1
+856,0,'existing paid','new car',1474,2,1,'male mar/wid',33,2,1
+857,0,'existing paid',retraining,894,0,3,'female div/dep/mar',40,2,1
+858,0,'critical/other existing credit',furniture/equipment,3343,1,2,'male single',28,2,1
+859,-1,'existing paid','new car',3959,1,2,'female div/dep/mar',29,2,0
+860,0,'existing paid','new car',3577,2,2,'male single',26,2,1
+861,0,'critical/other existing credit','used car',5804,4,2,'male single',27,2,1
+862,0,'delayed previously',business,2169,1,2,'male mar/wid',28,2,0
+863,-1,'existing paid',radio/tv,2439,1,1,'female div/dep/mar',35,2,0
+864,0,'critical/other existing credit',furniture/equipment,4526,4,1,'male single',32,1,1
+865,0,'existing paid',furniture/equipment,2210,1,2,'male single',25,1,0
+866,0,'existing paid',furniture/equipment,2221,3,2,'female div/dep/mar',20,2,1
+867,-1,'existing paid',radio/tv,2389,1,1,'female div/dep/mar',27,2,1
+868,0,'critical/other existing credit',furniture/equipment,3331,1,4,'male single',42,2,1
+869,0,'existing paid',business,7409,0,4,'male single',37,2,1
+870,-1,'existing paid',furniture/equipment,652,1,4,'female div/dep/mar',24,2,1
+871,0,'delayed previously',furniture/equipment,7678,3,3,'female div/dep/mar',40,2,1
+872,2,'critical/other existing credit','new car',1343,1,4,'male single',46,2,1
+873,-1,'critical/other existing credit',business,1382,2,3,'male single',26,2,1
+874,0,'existing paid','domestic appliance',874,0,1,'female div/dep/mar',24,2,1
+875,-1,'existing paid',furniture/equipment,3590,1,2,'male single',29,1,1
+876,1,'critical/other existing credit','new car',1322,4,2,'female div/dep/mar',40,2,1
+877,-1,'all paid',radio/tv,1940,1,1,'male single',36,3,1
+878,0,'existing paid',radio/tv,3595,1,4,'male single',28,2,1
+879,-1,'existing paid','new car',1422,1,1,'male single',27,3,0
+880,0,'critical/other existing credit',radio/tv,6742,0,3,'male single',36,2,1
+881,0,'existing paid','used car',7814,1,3,'male single',38,3,1
+882,0,'existing paid','used car',9277,0,2,'male div/sep',48,2,1
+883,1,'critical/other existing credit','new car',2181,0,4,'male single',36,2,1
+884,0,'critical/other existing credit',radio/tv,1098,1,0,'female div/dep/mar',65,0,1
+885,1,'existing paid',furniture/equipment,4057,1,3,'male div/sep',43,2,0
+886,-1,'existing paid',education,795,1,1,'female div/dep/mar',53,2,0
+887,1,'critical/other existing credit',business,2825,0,3,'male single',34,2,1
+888,1,'existing paid',business,15672,1,2,'male single',23,2,0
+889,0,'critical/other existing credit','new car',6614,1,4,'male single',34,3,1
+890,0,'all paid','used car',7824,0,1,'male single',40,2,1
+891,-1,'critical/other existing credit',business,2442,1,4,'male single',43,3,1
+892,0,'critical/other existing credit',radio/tv,1829,1,4,'male single',46,2,1
+893,-1,'critical/other existing credit','new car',2171,1,2,'male single',38,1,1
+894,1,'critical/other existing credit','used car',5800,1,2,'male single',34,2,1
+895,0,'critical/other existing credit',radio/tv,1169,0,2,'male single',29,2,1
+896,0,'delayed previously','used car',8947,0,3,'male single',31,3,1
+897,-1,'existing paid',radio/tv,2606,1,1,'female div/dep/mar',28,3,1
+898,0,'critical/other existing credit',furniture/equipment,1592,4,3,'female div/dep/mar',35,2,1
+899,0,'existing paid',furniture/equipment,2186,0,3,'female div/dep/mar',33,1,1
+900,-1,'existing paid',furniture/equipment,4153,1,2,'male single',42,2,0
+901,-1,'critical/other existing credit','new car',2625,1,4,'male single',43,2,0
+902,0,'critical/other existing credit','new car',3485,0,1,'male div/sep',44,2,1
+903,0,'critical/other existing credit','used car',10477,0,4,'male single',42,2,1
+904,0,'existing paid',radio/tv,1386,0,2,'male mar/wid',40,2,1
+905,0,'existing paid',radio/tv,1278,1,4,'male single',36,3,1
+906,-1,'existing paid',radio/tv,1107,1,2,'male single',20,3,1
+907,-1,'existing paid','new car',3763,0,3,'male single',24,1,1
+908,1,'existing paid',education,3711,0,2,'male mar/wid',27,2,1
+909,0,'delayed previously','used car',3594,1,1,'female div/dep/mar',46,1,1
+910,1,'existing paid','new car',3195,0,2,'female div/dep/mar',33,1,1
+911,0,'delayed previously',radio/tv,4454,1,2,'female div/dep/mar',34,2,1
+912,1,'critical/other existing credit',furniture/equipment,4736,1,1,'female div/dep/mar',25,1,0
+913,1,'existing paid',radio/tv,2991,0,4,'female div/dep/mar',25,2,1
+914,0,'existing paid',business,2142,4,4,'male div/sep',28,2,1
+915,-1,'all paid',business,3161,1,2,'male single',31,2,0
+916,1,'no credits/all paid',other,18424,1,2,'female div/dep/mar',32,3,0
+917,0,'existing paid','used car',2848,2,2,'male single',32,2,1
+918,-1,'existing paid','new car',14896,1,4,'male single',68,3,0
+919,-1,'existing paid',furniture/equipment,2359,2,0,'male div/sep',33,2,0
+920,-1,'existing paid',furniture/equipment,3345,1,4,'male single',39,3,0
+921,0,'critical/other existing credit',furniture/equipment,1817,1,2,'female div/dep/mar',28,2,1
+922,0,'delayed previously',radio/tv,12749,3,3,'male single',37,3,1
+923,-1,'existing paid',radio/tv,1366,1,1,'female div/dep/mar',22,2,0
+924,1,'existing paid','new car',2002,1,3,'male single',30,2,1
+925,-1,'all paid',furniture/equipment,6872,1,1,'male div/sep',55,2,0
+926,-1,'all paid','new car',697,1,1,'male single',46,2,0
+927,-1,'critical/other existing credit',furniture/equipment,1049,1,1,'female div/dep/mar',21,2,1
+928,-1,'existing paid','used car',10297,1,3,'male single',39,2,0
+929,0,'existing paid',radio/tv,1867,0,4,'male single',58,2,1
+930,-1,'delayed previously','new car',1344,1,2,'male single',43,1,1
+931,-1,'existing paid',furniture/equipment,1747,1,1,'male single',24,1,1
+932,1,'existing paid',radio/tv,1670,1,1,'female div/dep/mar',22,2,0
+933,0,'critical/other existing credit','new car',1224,1,2,'male single',30,2,1
+934,0,'critical/other existing credit',radio/tv,522,3,4,'male single',42,2,1
+935,-1,'existing paid',radio/tv,1498,1,2,'female div/dep/mar',23,2,1
+936,1,'delayed previously',radio/tv,1919,2,1,'male single',30,3,0
+937,2,'existing paid',radio/tv,745,1,2,'female div/dep/mar',28,1,0
+938,1,'existing paid',radio/tv,2063,1,1,'male mar/wid',30,3,1
+939,1,'existing paid',education,6288,1,2,'male single',42,2,0
+940,0,'critical/other existing credit','used car',6842,0,2,'male single',46,3,1
+941,0,'existing paid','new car',3527,0,1,'male single',45,3,1
+942,0,'existing paid','new car',1546,1,2,'male single',31,1,1
+943,0,'existing paid',furniture/equipment,929,0,3,'male single',31,2,1
+944,0,'critical/other existing credit','new car',1455,1,3,'male single',42,1,1
+945,-1,'existing paid',furniture/equipment,1845,1,1,'female div/dep/mar',46,2,1
+946,1,'no credits/all paid','new car',8358,3,1,'female div/dep/mar',30,2,1
+947,-1,'all paid',furniture/equipment,3349,3,1,'male single',30,2,0
+948,0,'existing paid','new car',2859,0,0,'male single',38,3,1
+949,0,'existing paid',furniture/equipment,1533,1,1,'male mar/wid',43,1,0
+950,0,'existing paid',radio/tv,3621,2,4,'male single',31,2,0
+951,1,'critical/other existing credit',business,3590,1,0,'male mar/wid',40,0,1
+952,-1,'delayed previously',business,2145,1,3,'male single',24,2,0
+953,1,'existing paid','used car',4113,3,1,'female div/dep/mar',28,2,0
+954,0,'existing paid',furniture/equipment,10974,1,0,'female div/dep/mar',26,3,0
+955,-1,'existing paid','new car',1893,1,2,'female div/dep/mar',29,2,1
+956,-1,'critical/other existing credit',radio/tv,1231,4,4,'female div/dep/mar',57,3,1
+957,2,'critical/other existing credit',radio/tv,3656,0,4,'male single',49,1,1
+958,1,'critical/other existing credit',radio/tv,1154,1,4,'male single',37,1,1
+959,-1,'existing paid','new car',4006,1,2,'male single',45,1,0
+960,1,'existing paid',furniture/equipment,3069,2,4,'male single',30,2,1
+961,0,'critical/other existing credit',radio/tv,1740,1,4,'male mar/wid',30,2,1
+962,1,'delayed previously','new car',2353,1,2,'male div/sep',47,2,1
+963,0,'existing paid','new car',3556,0,2,'male single',29,2,1
+964,0,'existing paid',radio/tv,2397,3,4,'male single',35,2,0
+965,1,'existing paid',repairs,454,1,1,'male mar/wid',22,1,1
+966,1,'existing paid',radio/tv,1715,0,2,'female div/dep/mar',26,2,1
+967,1,'critical/other existing credit',radio/tv,2520,3,2,'male single',23,1,0
+968,0,'existing paid',radio/tv,3568,1,4,'female div/dep/mar',54,3,1
+969,0,'existing paid',radio/tv,7166,0,3,'male mar/wid',29,2,1
+970,-1,'critical/other existing credit','new car',3939,1,2,'male single',40,1,1
+971,1,'existing paid',repairs,1514,2,2,'male single',22,2,1
+972,0,'existing paid','new car',7393,1,2,'male single',43,1,1
+973,-1,'all paid','new car',1193,1,0,'female div/dep/mar',29,0,0
+974,-1,'existing paid',business,7297,1,4,'male single',36,2,0
+975,0,'critical/other existing credit',radio/tv,2831,1,2,'female div/dep/mar',33,2,1
+976,2,'existing paid',radio/tv,1258,3,2,'female div/dep/mar',57,1,1
+977,1,'existing paid',radio/tv,753,1,2,'female div/dep/mar',64,2,1
+978,1,'delayed previously',business,2427,0,4,'male single',42,2,1
+979,0,'delayed previously','new car',2538,1,4,'male single',47,1,0
+980,1,'all paid','new car',1264,2,2,'male mar/wid',25,2,0
+981,1,'critical/other existing credit',furniture/equipment,8386,1,3,'male single',49,2,0
+982,0,'existing paid',business,4844,1,0,'male single',33,3,0
+983,2,'existing paid','new car',2923,2,2,'female div/dep/mar',28,3,1
+984,-1,'existing paid','used car',8229,1,2,'male single',26,2,0
+985,0,'critical/other existing credit',furniture/equipment,2028,1,3,'male single',30,1,1
+986,-1,'critical/other existing credit',furniture/equipment,1433,1,2,'female div/dep/mar',25,2,1
+987,2,'no credits/all paid',business,6289,1,1,'male div/sep',33,2,1
+988,0,'existing paid',radio/tv,1409,2,0,'female div/dep/mar',64,2,1
+989,-1,'existing paid','used car',6579,1,0,'male single',29,3,1
+990,1,'critical/other existing credit',radio/tv,1743,1,4,'male single',48,1,1
+991,0,'critical/other existing credit',education,3565,0,1,'male single',37,1,1
+992,0,'all paid',radio/tv,1569,2,4,'male single',34,1,1
+993,-1,'existing paid',radio/tv,1936,0,3,'male mar/wid',23,1,1
+994,-1,'existing paid',furniture/equipment,3959,1,0,'male single',30,3,1
+995,0,'existing paid','new car',2390,0,4,'male single',50,2,1
+996,0,'existing paid',furniture/equipment,1736,1,3,'female div/dep/mar',31,1,1
+997,-1,'existing paid','used car',3857,1,2,'male div/sep',40,3,1
+998,0,'existing paid',radio/tv,804,1,4,'male single',38,2,1
+999,-1,'existing paid',radio/tv,1845,1,2,'male single',23,2,0
+1000,1,'critical/other existing credit','used car',4576,2,0,'male single',27,2,1
